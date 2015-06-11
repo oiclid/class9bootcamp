@@ -7,10 +7,10 @@ var wordOrderSwap = function (word)
 	
 	for(i=wordLength;i>0;i--)
 	{
-	    var tempWord = tempWord + word.substr(i-1, 1);
+	    tempWord = tempWord + word.substr(i-1, 1);
 	}
-	console.log(tempWord);
+	return(tempWord);
 }
 
-wordOrderSwap("fight");
+invertedWord = wordOrderSwap("university");
 console.log(invertedWord);
