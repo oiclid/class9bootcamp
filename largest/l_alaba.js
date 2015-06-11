@@ -17,6 +17,3 @@ var largestNum = function (yourNumArray)
 
 	return(tempLargestNum);
 };
-
-var testArray = [2,5,8,77,6,9,8];
-console.log(largestNum(testArray));
